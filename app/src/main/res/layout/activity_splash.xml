@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#0C0808"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:background="@drawable/brain"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="BrainRefresher"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/baloo" />
+
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tagLine"
+        app:fontFamily="cursive"
+        android:textSize="15sp"
+        android:textColor="#ffff"
+        android:text=" Must try, Must Play 😉" android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal" />
+
+</RelativeLayout>
+
+</LinearLayout>
+
+</LinearLayout>
